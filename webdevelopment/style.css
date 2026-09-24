@@ -1,0 +1,12 @@
+h1 {
+    color: #008080 ; /* teal */
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif; 
+}
+
+p {
+    color: #444444; /* dark gray */
+    font-size: 18px;
+    font-family: Helvetica, sans-serif; 
+}
