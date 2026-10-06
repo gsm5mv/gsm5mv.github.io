@@ -112,7 +112,7 @@ h1 {
 }
 
 .resume-link {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .resume-link a {
@@ -122,6 +122,33 @@ h1 {
     border: 2px solid #000000;
     border-radius: 10px;
     background-color: #E0A96D;
+    text-decoration: none;
+    color:#000000
+}
+
+.resume-link a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.education {
+    padding: 1rem 2rem;
+}
+
+.education p {
+    margin-bottom: 1rem;
+}
+
+.education ul {
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    list-style-type: square;
+    font-size: medium;
+}
+
+.education li:hover {
+    color: #E0A96D;
+    cursor: pointer;
 }
 
 /* Footer styles */
