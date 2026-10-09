@@ -14,8 +14,12 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo {
