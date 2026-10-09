@@ -1,11 +1,10 @@
+/* Header for all pages */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-size: 40px;
-    font-family: Arvo, serif; 
+    box-sizing: border-box;
 }
 
 header {
@@ -27,13 +26,13 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 2rem;
 }
 
 .nav-links li a {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 2rem;
     font-size: 20px;
     text-decoration: none;
@@ -41,16 +40,6 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav-links li a:hover, .nav-links li a:focus  {
+.nav-links li a:hover, .nav-links li a:focus, .nav-links li a:active {
     background-color: #E0A96D;
-}
-
-h1 {
-    text-align: center;
-    padding: 1rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
 }
