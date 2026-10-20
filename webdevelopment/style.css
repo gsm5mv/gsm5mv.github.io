@@ -250,7 +250,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.411)), url('./media/footer.jpg') center/cover no-repeat;
     width: 100%;
 }
 
@@ -265,6 +265,16 @@ footer {
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links img:hover {
+    transform: scale(1.04);
 }
 
 
