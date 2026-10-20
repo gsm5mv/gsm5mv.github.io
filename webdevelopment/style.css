@@ -320,3 +320,48 @@ footer {
         padding: 1.5rem 1rem;
     }
 }
+
+@media print {
+    @page {
+        margin: 1in;
+    }
+    
+    .about-page header,
+    .about-page .about-media,
+    .about-page .external-link {
+        display: none;
+
+    }
+
+    .about-page footer,
+    .about-page #sub-header {
+        background: none;
+    }
+
+    .about-page .footer-content a {
+        display: none;
+    }
+
+    .about-page {
+        font-family: Arvo, serif; 
+    }
+
+    .about-page h1, 
+    .about-page h2,
+    .about-page p,
+    .about-page .education {
+        color: #000000;
+    }
+
+    .about-page h1 {
+        font-size:24pt;
+    }
+
+    .about-page p {
+        font-size: large;
+    }
+
+    .about-page .footer-content {
+        padding-top: 0rem;
+    }
+  }
