@@ -29,7 +29,7 @@ h1 {
 #hero {
     width: 100%;
     height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.411)), url('./images/hero.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.411)), url('./media/hero.jpeg') center/cover no-repeat;
 }
 
 .container {
@@ -222,6 +222,31 @@ main {
     background-color: #000000;
     color: #FFFFFF;
 }
+
+.about-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.about-media img,
+.about-media video {
+    width: 30%;
+    max-width: 350px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.about-media img:hover,
+.about-media video:hover {
+    transform: scale(1.04);
+}
+
 
 /* Footer styles */
 footer {
