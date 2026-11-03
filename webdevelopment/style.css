@@ -397,6 +397,18 @@ footer {
         margin: 1rem 0;
     }
 
+    /* Apply to About Me Page */
+    .education ul {
+        font-size: medium;
+    }
+
+    .about-media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
     /* Footer styles */
     .footer-content {
         gap: 1rem;
@@ -404,6 +416,8 @@ footer {
     }
 }
 
+
+/* Print Styles */
 @media print {
     @page {
         margin: 1in;
@@ -446,12 +460,5 @@ footer {
 
     .about-page .footer-content {
         padding-top: 0rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    h1 {
-      color: darkmagenta;
-      font-size: 1.5rem;
     }
 }
