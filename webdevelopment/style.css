@@ -224,21 +224,20 @@ main {
 }
 
 .about-media {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 .about-media img,
 .about-media video {
-    width: 30%;
     max-width: 350px;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 10px;
-    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -448,4 +447,11 @@ footer {
     .about-page .footer-content {
         padding-top: 0rem;
     }
-  }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+      color: darkmagenta;
+      font-size: 1.5rem;
+    }
+}
