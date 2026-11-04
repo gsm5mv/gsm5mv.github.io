@@ -64,7 +64,27 @@ header {
     background-color: #E0A96D;
 }
 
-/* Hide Mobile Menu */
+/* Dropdown Menu */
+.desktop-menu .nav-links .dropdown {
+    position: relative;
+}
+
+.desktop-menu .nav-links .submenu {
+    display: none;
+    position: absolute;
+    min-width: 8rem;
+    list-style: none;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+}
+
+.desktop-menu .nav-links .dropdown:hover .submenu,
+.desktop-menu .nav-links .dropdown:focus-within .submenu {
+    display: block;
+}
+
+/* Hide Mobile Menu in Desktop View */
 .mobile-menu,
 #menu-toggle {
     display: none;

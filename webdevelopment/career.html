@@ -26,7 +26,14 @@
                 </a>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="career.html" class="active">Career</a></li>
+                    <li class="dropdown">
+                        <a href="career.html" class="active">Career</a>
+                        <ul class="submenu">
+                          <li><a href="career.html#mudoit">MU DoIT</a></li>
+                          <li><a href="career.html#mucehd">MU CEHD</a></li>
+                          <li><a href="career.html#gravity">Gravity</a></li>
+                        </ul>
+                      </li>
                     <li><a href="reflection.html">Reflection</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -46,7 +53,7 @@
                   <li><a href="about.html">About</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
-              </nav>
+            </nav>
         </header>
         <!-- Main content of the page -->
 
@@ -63,9 +70,9 @@
         <!-- Paragraph -->
         <main>
             <div class="career">
-                <div class="experience">
-                    <img src="media/mizzou.svg" alt="University of Missouri-Columbia logo">
-                    <h3><a href="career.html#mizzou">University of Missouri-Columbia</a></h3>
+                <div class="experience" id="mudoit">
+                    <img src="media/doit.jpg" alt="MU Division of Information Technology logo">
+                    <h3>MU Division of Information Technology</h3>
                     <h4>Support Systems Administrator-Entry</h4>
                     <h4>February 2025 – Present ​</h4>
                     <p>Served as the lead enterprise administrator for the university-wide Jamf Pro MDM platform, managing Apple hardware (macOS, iOS/iPadOS) across all academic colleges, units, and UM System affiliates. Established, documented, and governed enterprise IT standards, configuration profiles, and automated deployment pipelines for distributed IT teams across the campus network.</p>
@@ -77,9 +84,9 @@
                     <p>This role taught me to think more about the big picture instead of just reacting to immediate crises. I learned to consider the broader impact of my actions across the campus. This helped me reflect on potential outcomes and understand the "what ifs" before making decisions.</p>
                 </div>
 
-                <div class="experience">
+                <div class="experience" id="mucehd">
                     <img src="media/cehd.svg" alt="College of Education and Human Development logo">
-                    <h3><a href="career.html#cehd">University of Missouri-Columbia</a></h3>
+                    <h3>MU College of Education and Human Development</h3>
                     <h4>Systems Support Analyst-Expert</h4>
                     <h4>August 2021 – February 2025</h4>
                     <p>Provided multi-tier technical support across campus for faculty, staff, and students. Managed account access and identity services (SSO, MFA, Secure AUTH, Canvas, email). Configured, imaged, and deployed Windows and macOS workstations, peripherals, and classroom A/V hardware. Maintained network connectivity (VPN, wired/wireless), conducted virus remediation, administered managed printing software, and issued campus Triton ID cards.</p>
@@ -91,9 +98,9 @@
                     <p>This role taught me patience while working with end users. Not everyone is skilled in every area, and I learned that what they are trying to achieve contributes to the nation's future, such as teaching children and training future teachers. If I were in their position, I would find it challenging to do what they do, which is why I have come to appreciate their efforts. I assist them when they encounter technology problems, and this experience has helped me cultivate patience.</p>
                 </div>
                 
-                <div class="experience">
+                <div class="experience" id="gravity">
                     <img src="media/gravity.png" alt="Gravity Columbia logo">
-                    <h3><a href="career.html#gravity">Gravity Columbia</a></h3>
+                    <h3>Gravity Columbia</h3>
                     <h4>Apple Technician </h4>
                     <h4>March 2021 – August 2021 </h4>
                     <p>Delivered multi-channel technical support and customer assistance across phone, email, and walk-in desks. Diagnosed and resolved complex hardware, operating system, and application software issues for end-users, maintaining comprehensive ticketing records and support documentation to ensure resolution accuracy and service-level tracking. </p>
