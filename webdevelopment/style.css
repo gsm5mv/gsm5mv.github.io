@@ -33,13 +33,11 @@ h1 {
 }
 
 .container {
-    width: 100%;
     height: 100%;
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: left;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -180,14 +178,74 @@ main {
 
 }
 
-/* Apply to About Me Page */
-.education {
-    padding: 1rem 2rem;
+/* Apply to Career Page */
+.career {
+    display: flex;
+    flex-direction: column;
 }
 
-.education p {
-    line-height: 1.5;
+.career .experience {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 1rem;
     margin-bottom: 1rem;
+}
+
+.career h3 {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #E0A96D;
+    margin: 0.5rem 0;
+}
+
+.career h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.career p {
+    margin: 0.5rem 0;
+}
+
+.career img {
+    float: right;
+    height: 100px;
+    width: auto;
+    margin: 0 1em 1em 0;
+}
+
+.career .experience ul {
+    margin: 0.5rem;
+    padding-left: 2rem;
+    list-style-type: square;
+}
+
+/* Apply to About Me Page */
+.about-media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about-media img,
+.about-media video {
+    max-width: 350px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.about-media img:hover,
+.about-media video:hover {
+    transform: scale(1.04);
+}
+
+.education {
+    padding: 1rem 2rem;
 }
 
 .education ul {
@@ -221,29 +279,6 @@ main {
 .external-link a:hover {
     background-color: #000000;
     color: #FFFFFF;
-}
-
-.about-media {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 1rem;
-    padding-bottom: 1rem;
-}
-
-.about-media img,
-.about-media video {
-    max-width: 350px;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-
-.about-media img:hover,
-.about-media video:hover {
-    transform: scale(1.04);
 }
 
 /* Contact Page Styles */
@@ -350,7 +385,7 @@ footer {
     transform: scale(1.04);
 }
 
-
+/* Media Queries */
 @media only screen and (max-width: 768px) {
     html {
         font-size: 16px;
@@ -407,6 +442,21 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
+    }
+
+    /* Apply to Contact Page */
+    .contact {
+        display: block;
+        text-align: center;
+    }
+
+    .contact .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contact .section p {
+        padding-bottom: 1rem;
     }
 
     /* Footer styles */
