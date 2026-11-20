@@ -286,7 +286,8 @@ main {
 }
 
 .external-link {
-    padding: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     display: block;
 }
 
@@ -502,7 +503,6 @@ footer {
     .about-page .about-media,
     .about-page .external-link {
         display: none;
-
     }
 
     .about-page footer,
