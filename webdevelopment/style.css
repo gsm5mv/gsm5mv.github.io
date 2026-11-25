@@ -468,6 +468,10 @@ footer {
         margin: 1rem 0;
     }
 
+    /* Apply to Career */
+    .career img {
+        height: 50px;
+    }
     /* Apply to About Me Page */
     .education ul {
         font-size: medium;
