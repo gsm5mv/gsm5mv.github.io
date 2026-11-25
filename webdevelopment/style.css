@@ -14,11 +14,13 @@
     box-sizing: border-box;
 }
 
+/* Custom font for the website */
 html {
     font-size: 20px;
     font-family: Roboto, sans-serif; 
 }
 
+/* Custon font for H1 texts */
 h1 {
     font-size: 40px;
     color: #FFFFFF;
