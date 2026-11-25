@@ -499,6 +499,13 @@ footer {
         padding-bottom: 1rem;
     }
 
+    /* Apply to About Page */
+    .about-table table {
+        margin: 0 auto;
+        width: 60%;
+        border-collapse: collapse;
+    }
+
     /* Footer styles */
     .footer-content {
         gap: 1rem;
